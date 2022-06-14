@@ -57,6 +57,42 @@ const routes = [
     component: () => import( '@/views/Input.vue')
   },
   {
+    path: '/cascade',
+    name: 'Cascade',
+
+
+    component: () => import( '@/views/Cascade.vue')
+  },
+  {
+    path: '/switch',
+    name: 'Switch',
+
+
+    component: () => import( '@/views/Switch.vue')
+  },{
+    path: '/slider',
+    name: 'Slider',
+
+
+    component: () => import( '@/views/Slider.vue')
+  },
+  {
+    path: '/timepicker',
+    name: 'TimePicker',
+
+
+    component: () => import( '@/views/TimePicker.vue')
+  },
+  {
+    path: '/datepicker',
+    name: 'DatePicker',
+
+
+    component: () => import( '@/views/DatePicker.vue')
+  },
+
+
+  {
     path: '/about',
     name: 'about',
 
